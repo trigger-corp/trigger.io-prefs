@@ -1,0 +1,6 @@
+{
+    "description": "Module to save persistent preferences.\n\nThe prefs module provides a simple API for simple key-value preferences to be persistently saved.", 
+    "name": "prefs", 
+    "platform_version": "v2.0.0",
+    "version": "2.0"
+}
