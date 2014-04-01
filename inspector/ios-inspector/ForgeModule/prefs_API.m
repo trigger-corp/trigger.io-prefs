@@ -22,7 +22,7 @@
 	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
 	
 	[prefs setObject:value forKey:[@"forge_" stringByAppendingString:key]];
-	
+	[prefs synchronize];
 	[task success:nil];
 }
 
@@ -56,7 +56,7 @@
 	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
 	
 	[prefs removeObjectForKey:[@"forge_" stringByAppendingString:key]];
-	
+    [prefs synchronize];
 	[task success:nil];
 }
 
@@ -68,7 +68,7 @@
 			[prefs removeObjectForKey:key];
 		}
 	} 
-	
+    [prefs synchronize];
 	[task success:nil];
 }
 
