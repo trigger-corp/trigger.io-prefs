@@ -1,7 +1,8 @@
 {
+    "changes": "* Support arm64 devices running iOS 8", 
     "description": "Module to save persistent preferences.\n\nThe prefs module provides a simple API for simple key-value preferences to be persistently saved.", 
     "min_platform_version": "v2.1.0", 
-    "name": "prefs", 
-    "platform_version": "v2.1.0", 
-    "version": "2.0"
+    "namespace": "prefs", 
+    "platform_version": "v2.2.0", 
+    "version": "2.1"
 }
