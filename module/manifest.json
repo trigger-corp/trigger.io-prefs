@@ -1,8 +1,8 @@
 {
-    "changes": "* Synchronize iOS preferences after write operations", 
-    "description": "Module to save persistent preferences.\n\nThe prefs module provides a simple API for simple key-value preferences to be persistently saved.", 
-    "min_platform_version": "v2.2.10", 
-    "namespace": "prefs", 
-    "platform_version": "v2.2.10", 
-    "version": "2.2"
+    "changes": "* Update for iOS 14\n* Update for Android 11",
+    "description": "Module to save persistent preferences.\n\nThe prefs module provides a simple API for simple key-value preferences to be persistently saved.",
+    "min_platform_version": "v2.9.0",
+    "namespace": "prefs",
+    "platform_version": "v2.9.0",
+    "version": "2.3"
 }

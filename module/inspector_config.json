@@ -1,6 +1,17 @@
 {
-	"this_module": {
-		"config": {}
-	},
-	"modules": {}
+    "this_module": {
+        "config": {}
+    },
+    "modules": {
+    },
+    "core": {
+        "general": {
+            "trusted_urls": [
+                "http://localhost/*",
+                "https://localhost/*",
+                "http://127.0.0.1/*",
+                "https://127.0.0.1/*"
+            ]
+        }
+    }
 }
